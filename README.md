@@ -4,6 +4,8 @@
 
 This project is a Typing Practice web application designed to help users improve their typing speed and accuracy. The application offers a clean, material design interface and supports both light and dark modes. The application dynamically generates sentences for the user to type, measures typing speed and accuracy in real-time, and displays the completion time once the user finishes typing.  Visit now [GLitcH keys](https://arkadipta-kundu.github.io/GLitcH-keys/).
 
+![Alt Text](p3err.png)
+
 ## Features
 
 - **Dynamic Sentence Generation**: Sentences are generated randomly from a predefined set of words.
@@ -105,6 +107,8 @@ function formatTime(seconds) {
     return minutes > 0 ? `${minutes}:${remainingSeconds.toString().padStart(2, '0')}` : remainingSeconds.toString();
 }
 ```
+
+![Alt Text](p4comp.png)
 
 ### Error Highlighting
 
