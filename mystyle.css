@@ -1,0 +1,55 @@
+.cursor {
+  border-bottom: 2px solid black;
+  position: absolute;
+  bottom: 0;
+  height: 100%;
+}
+
+.mistake {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.relative {
+  position: relative;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark .bg-white {
+  background-color: #1e1e1e;
+}
+
+.dark .bg-gray-100 {
+  background-color: #2c2c2c;
+}
+
+.dark .text-gray-700 {
+  color: #b0b0b0;
+}
+
+.dark .border-gray-300 {
+  border-color: #444;
+}
+
+.dark .text-green-500 {
+  color: #81c784;
+}
+
+.dark #typing-input {
+  color: black;
+  background-color: #ece7e7;
+  /* or any dark color to contrast the black text */
+}
+
+.dark #sentence-length {
+  color: black;
+  background-color: whitesmoke;
+}
+
+.mistake {
+  color: red;
+}

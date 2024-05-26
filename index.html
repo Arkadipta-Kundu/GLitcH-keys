@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLitcH keys</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body class="bg-gray-100 flex justify-center items-center min-h-screen">
+    <div class="absolute top-4 right-4">
+        <button id="dark-mode-toggle" class="bg-blue-500 text-white p-2 rounded-full">
+            <span class="material-icons">dark_mode</span>
+        </button>
+    </div>
+    <div class="bg-white shadow-md rounded-lg p-6 w-full max-w-lg">
+        <h1 class="text-2xl font-bold mb-4">GLitcH keys</h1>
+        <div class="mb-4" id="settings-container">
+            <label for="sentence-length" class="block text-sm font-medium text-gray-700">Sentence Length</label>
+            <input type="number" id="sentence-length"
+                class="mt-1 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md"
+                placeholder="Enter sentence length">
+        </div>
+        <button id="start-test" class="bg-blue-500 text-white px-4 py-2 rounded-md mb-4">Start Test</button>
+        <div id="test-container" class="hidden">
+            <div class="bg-gray-100 p-4 rounded-md mb-4 relative">
+                <p id="sentence" class="text-lg font-semibold">
+                    <span id="display-text"></span><span class="cursor"></span>
+                </p>
+            </div>
+            <input type="text" id="typing-input" class="w-full p-2 border border-gray-300 rounded-md mb-4">
+            <div class="flex justify-between items-center">
+                <div>
+                    <p>Time: <span id="timer">0</span> seconds</p>
+                </div>
+                <div>
+                    <p>Speed: <span id="speed">0</span> WPM</p>
+                    <p>Accuracy: <span id="accuracy">0</span>%</p>
+                </div>
+            </div>
+            <div id="completion-time" class="text-green-500 font-bold text-xl mt-4 hidden"></div>
+            <button id="restart-test" class="bg-blue-500 text-white px-4 py-2 rounded-md mt-4 hidden">Restart</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
