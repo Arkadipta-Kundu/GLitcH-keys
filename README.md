@@ -4,7 +4,7 @@
 
 This project is a Typing Practice web application designed to help users improve their typing speed and accuracy. The application offers a clean, material design interface and supports both light and dark modes. The application dynamically generates sentences for the user to type, measures typing speed and accuracy in real-time, and displays the completion time once the user finishes typing.  Visit now [GLitcH keys](https://arkadipta-kundu.github.io/GLitcH-keys/).
 
-![Alt Text](p3err.png)
+![Alt Text](home.png)
 
 ## Features
 
@@ -91,6 +91,8 @@ function toggleDarkMode() {
 }
 ```
 
+![Alt Text](dark.png)
+
 ### Completion Time Display
 
 The application displays the time taken to complete the typing test in minutes and seconds format if it exceeds 60 seconds.
@@ -126,6 +128,7 @@ for (let i = 0; i < sentence.length; i++) {
     }
 }
 ```
+![Alt Text](p3err.png)
 
 ## Contributing
 
