@@ -26,32 +26,16 @@ This project is a Typing Practice web application designed to help users improve
 
 1. **Clone the Repository**
     ```sh
-    git clone <repository-url>
+    git clone <[repository-url](https://github.com/Arkadipta-Kundu/GLitcH-keys)>
     ```
 2. **Navigate to the Project Directory**
     ```sh
-    cd typing-practice
+    cd GLitcH-keys
     ```
 
 ## Usage
 
-1. **Open `index.html`**: Open the `index.html` file in your web browser.
-
-## File Structure
-
-```
-typing-practice/
-│
-├── index.html
-├── script.js
-├── style.css
-├── README.md
-```
-
-- **index.html**: Main HTML file containing the structure of the web application.
-- **script.js**: JavaScript file containing the functionality for real-time typing metrics, sentence generation, timer, and dark mode toggle.
-- **style.css**: Additional CSS for custom styling.
-- **README.md**: This readme file.
+1. **Open `index.html`**: Open the `index.html` file in your web browser or Visit now [GLitcH keys](https://arkadipta-kundu.github.io/GLitcH-keys/).
 
 ## Features in Detail
 
@@ -154,7 +138,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 
-For any questions or feedback, please contact [Arkadipra Kundu] at [arkadiptak49@gmail.com].
+For any questions or feedback, please contact Arkadipra Kundu at arkadiptak49@gmail.com.
 
 ---
 
