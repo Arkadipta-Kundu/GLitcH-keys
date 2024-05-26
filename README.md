@@ -26,7 +26,7 @@ This project is a Typing Practice web application designed to help users improve
 
 1. **Clone the Repository**
     ```sh
-    git clone <[repository-url](https://github.com/Arkadipta-Kundu/GLitcH-keys)>
+    git clone https://github.com/Arkadipta-Kundu/GLitcH-keys.git
     ```
 2. **Navigate to the Project Directory**
     ```sh
