@@ -1,4 +1,4 @@
-# Typing Practice Web Application
+# GLitcH keys
 
 ## Overview
 
